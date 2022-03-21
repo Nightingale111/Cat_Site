@@ -7,10 +7,10 @@ body {
 
 .hero-bg {
     background: whitesmoke url('../images/cat1.jpg');
-    background-position: 12% 83%;
+    background-position: 30% 65%;
     color: black;
     text-align: left;
-    padding-bottom: 4em;
+    padding-bottom: 10em;
 }
 
 header {
@@ -22,4 +22,51 @@ header {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.hero-bg section {
+    width: 55%;
+}
+
+.hero-bg p {
+    margin: 0 0 3em;
+}
+
+section {
+    margin: 0 4em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 2em 0 2em;
+}
+
+p {
+    line-height: 2em;
+}
+
+.lvl2 {
+    margin: 0;
+}
+
+section.lvl2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: 
+        "cat content";
+}
+
+.right-col {
+    grid-area: content;
+    padding: 0 10%;
+    text-align: left;
+    align-self: center;
+}
+
+img {
+    grid-area: cat;
+}
+
+h2 {
+    margin: 0;
 }
