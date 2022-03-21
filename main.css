@@ -1,1 +1,25 @@
-/* Styling */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.hero-bg {
+    background: whitesmoke url('../images/cat1.jpg');
+    background-position: 12% 83%;
+    color: black;
+    text-align: left;
+    padding-bottom: 4em;
+}
+
+header {
+    padding: 1em 0em;
+}
+
+.hero-bg a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
