@@ -70,3 +70,30 @@ img {
 h2 {
     margin: 0;
 }
+
+.lvl3 {
+    margin: 0;
+}
+
+section.lvl3 {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-areas: 
+        "content1 cat2 content2";
+}
+
+.left-col {
+    grid-area: content1;
+    padding: 4em 10%;
+    text-align: left;
+    align-self: left;
+}
+
+.right-col2 {
+    grid-area: content2;
+    padding: 0 10%;
+    text-align: left;
+    align-self: center;
+    background: #ddbea9 url('../images/contact_color.png');
+    width: -55%;
+}
