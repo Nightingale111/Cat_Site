@@ -94,6 +94,6 @@ section.lvl3 {
     padding: 0 10%;
     text-align: left;
     align-self: center;
-    background: #ddbea9 url('../images/contact_color.png');
+    background-color: #ddbea9;
     width: -55%;
 }
